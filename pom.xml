@@ -67,10 +67,18 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<!--    
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>    
+-->    
   </properties>
 
   <prerequisites>
+  <!--
     <maven>3.2.1</maven>
+-->    
+  
+    <maven>3.6.1</maven>
   </prerequisites>
 
   <build>
